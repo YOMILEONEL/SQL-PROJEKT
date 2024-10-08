@@ -47,6 +47,8 @@ INSERT INTO preise VALUES(4, "300","1777-03-06");
 SELECT 
 *
 
+
+
 from animal t
 
 LEFT JOIN preise p ON t.tiernummer = p.tiernummer
