@@ -49,6 +49,8 @@ SELECT
 
 
 
+
+
 from animal t
 
 LEFT JOIN preise p ON t.tiernummer = p.tiernummer
