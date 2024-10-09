@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS users(
    roles enum("VERMIETER", "MIETER") not null,
    telefonnummer varchar(20)
    );
-
+  
+  
 CREATE TABLE autos(
    auto_id INTEGER primary KEY NOT NULL,
    marke VARCHAR(200),
