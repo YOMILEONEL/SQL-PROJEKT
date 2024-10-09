@@ -1,3 +1,4 @@
+USE business;
 DROP TABLE IF EXISTS users, autos, locations, bezahlung,reparatur,vertrag;
 CREATE TABLE IF NOT EXISTS users(
    user_id INTEGER primary KEY NOT NULL,
